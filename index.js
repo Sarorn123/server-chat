@@ -8,6 +8,8 @@ app.get("/api", (req, res) => {
   res.send({ message: "nana" });
 });
 
+//test
+
 const users = [];
 function user_join(id, username, room_id) {
   const user = { id, username, room_id };
